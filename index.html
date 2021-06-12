@@ -4,9 +4,196 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alejandro Perdomo - CV</title>
+    <title>Alejandro Perdomo - Portafolio</title>
+    
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="build/css/imagehover.css">
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!--Favicon-->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="build/img/favicon/apple-touch-icon.webp">
+    <link rel="icon" type="image/png" sizes="32x32" href="build/img/favicon-32x32.webp">
+    <link rel="icon" type="image/png" sizes="16x16" href="build/img/favicon/favicon-16x16.webp">
+    <link rel="manifest" href="build/img/site.webmanifest">
+    <link rel="mask-icon" href="build/img//safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 <body>
+
+    <header class="header">
+        <svg><rect></rect></svg>
+        <div class="contenedor contenido-header">
+            <a  href="index.html"><img class="imagen__logo" src="build/img/logo.webp" alt="Logo W"></a>
+
+            <nav class="navegacion-principal">
+                <a href="#aboutme">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#xp">XP</a>
+            </nav>
+        </div>
+
+        <div class="contenedor contenido-title">
+            <div id="app" class="app"></div>
+            <div class="title">
+                
+                    <h2><span>Frontend Developer</span></h2>
+                
+            </div>
+        </div>
+    </header>
+
+    <section class="contenedor contenido-aboutme" id="aboutme">
+        <h2>About Me</h2>
+
+        <div class="card">
+            <p class="text-card">I am a Software Engineering student at the Universidad Surcolombiana, I am finishing my professional career. I have knowledge in web development with focus on frontend. I master html, css, javascript, gulp, sass. Also some libraries like bootstrap, tailwind, skeleton, materialize. Currently I'm learning frameworks like Angular, React and Vue. I am passionate about design and I also have some skills with vector drawings with Adobe Illustrator.</p>
+            
+            <img class="image-card" src="./build/img/perfil.webp" alt="Foto perfil">    
+        </div>
+    </section>
+
+    <section class="contenedor contenido-techno" id="skills">
+        <h2>Technologies</h2>
+        
+
+        <div class="cards">
+            <div class="single-card">
+                <figure class="imghvr-flip-vert">
+                    <img class="ih-fade" src="./build/img/html5.webp" alt="Icono HTML5">
+                    <figcaption>
+                        HTML5
+                    </figcaption>
+                </figure>
+                
+            </div>
+
+            <div class="single-card">
+                <figure class="imghvr-flip-vert">
+                    <img class="ih-fade" src="./build/img/css3.webp" alt="Icono CSS3">
+                    <figcaption>
+                        CSS3
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="single-card">
+                <figure class="imghvr-flip-vert">
+                    <img class="ih-fade" src="./build/img/js.webp" alt="Icono Javascript">
+                    <figcaption>
+                        Javascript
+                        Dom Scripting
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="single-card">
+                <figure class="imghvr-flip-vert">
+                    <img class="ih-fade" src="./build/img/node.webp" alt="Icono Node.js">
+                    <figcaption>
+                        Node.js
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="single-card">
+                <figure class="imghvr-flip-vert">
+                    <img class="ih-fade" src="./build/img/sass.webp" alt="Icono Sass">
+                    <figcaption>
+                        Sass
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="single-card">
+                <figure class="imghvr-flip-vert">
+                    <img class="ih-fade" src="./build/img/bootstrap.webp" alt="Icono Bootstrap">
+                    <figcaption>
+                        Bootstrap
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenido-xp" id="xp">
+        <h2>Experience</h2>
+
+        <div class="contenedor grid">
+            <div class="card-project">
+                <a href="https://cocky-austin-da8e90.netlify.app/" target="_blank"><img src="./build/img/ap.webp" alt="Foto App Pacientes"></a>
+                <p>Administrador de Citas</p>
+                <p><span>Keywords: React, CSS</span></p>
+            </div>
+
+            <div class="card-project">
+                <a href="https://vegas29.github.io/blogcafe/" target="_blank"><img src="./build/img/bc.webp" alt="Foto Blog Cafe"></a>
+                <p>Blog del Cafe</p>
+                <p>Keywords: HTML, CSS</p>
+            </div>
+
+            <div class="card-project">
+                <a href="https://vegas29.github.io/bienesraices/" target="_blank"><img src="./build/img/br.webp" alt="Foto Bienes Raices"></a>
+                <p>Bienes Raices</p>
+                <p><span>Keywords: HTML, CSS, JS</span></p>
+            </div>
+
+            <div class="card-project">
+               <a href="https://boring-nightingale-6a5ca7.netlify.app/" target="_blank"><img src="./build/img/fm.webp" alt="Foto Festival Electronica"></a>
+                <p>Festival Electronica</p>
+                <p><span>Keywords: HTML, CSS, SASS, GULP, NODE</span></p>
+            </div>
+
+            <div class="card-project">
+                <a href="https://vegas29.github.io/Frontend-Store/" target="_blank"><img src="./build/img/fs.webp" alt="Foto Frontend Store"></a>
+                <p>Frontend Store</p>
+                <p><span>Keywords: HTML, CSS</span></p>
+            </div>
+
+            <div class="card-project">
+                <a href="https://vegas29.github.io/Prototipo-Parque-Parilla/" target="_blank"><img src="./build/img/pp.webp" alt="Parque Parilla"></a>
+                <p>Parque Parilla</p>
+                <p><span>Keywords: HTML, CSS, JS</span></p>
+            </div>
+
+            <div class="card-project">
+                <img src="./build/img/swf.jpg" alt="Foto Sitio Web Freelancer">
+                <p>Sitio Web Freelancer</p>
+                <p><span>Keywords: HTML, CSS</span></p>
+            </div>
+
+            <div class="card-project">
+                <a href="https://app.netlify.com/sites/optimistic-hamilton-c988ff/overview" target="_blank"><img src="./build/img/wr.jpg" alt="Foto Sitio Web Will Royero"></a>
+                <p>Sitio Web Will Royero</p>
+                <p><span>Keywords: HTML, CSS, SASS, GULP, NODE</span></p>
+            </div>
+        </div>
+
+        
+    </section>
+
+
+    <footer>
+
+        <div class="contenedor">
+            <div class="redes">
+                <a target="_blank" href="https://www.facebook.com/diego.montealegre.35574/"><img class="icono" src="./build/img/facebook.webp" alt="Facebook Icono"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/diego-alejandro-perdomo-montealegre-360975176/"><img class="icono" src="./build/img/linkedin.webp" alt="Linkedin Icono"></a>
+               <a href="#"><img class="icono" src="./build/img/twitter.webp" alt="Twitter Icono"></a>
+                <a href="https://github.com/vegas29"><img class="icono" src="./build/img/github.webp" alt="GitHub Icono"></a>
+            </div>
+    
+            <div class="creditos">
+                <p>Development by Alejandro Perdomo &copy;</p>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="./build/js/bundle.min.js"></script>
     
 </body>
 </html>

@@ -1,0 +1,42 @@
+.contenido-xp{
+    padding: $separacion5 0;
+    background-color: $negro;
+    
+    h2{
+        margin: $separacion5 0;
+        text-align: center;
+        color: $blanco;
+    }
+
+    .grid{
+        display: block;
+
+        @include tablet{
+            @include grid(2, $separacion5)
+        }
+    }
+
+    .card-project{
+        display: block;
+
+        p{
+            text-align: center;
+            color: $blanco;            
+        }
+        
+    }
+
+    img{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        transition: .2s ease-out;
+
+        &:hover{
+            transform: scale(1.07);
+        }
+    }
+
+    
+
+}
