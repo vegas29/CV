@@ -16,7 +16,7 @@
         fill: transparent;
     }
 
-    rect{
+    /*rect{
         stroke: $morado;
         stroke-linecap: round;
         stroke-width: 1rem;
@@ -32,7 +32,7 @@
         100%{
             stroke-dashoffset: 0;
         }
-    }
+    }*/
 
     &:before{
         content: '';
