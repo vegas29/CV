@@ -1,6 +1,9 @@
-var app = document.getElementById('app');
+//Variables
+const app = document.getElementById('app');
 
-var typewriter = new Typewriter(app, {
+
+
+const typewriter = new Typewriter(app, {
     loop: true
 });
 
